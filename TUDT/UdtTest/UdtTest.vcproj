@@ -63,7 +63,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="udt.lib UdtUploader.lib HttpUploader.lib HttpBlockDownloader.lib ws2_32.lib TDownloader.lib libcurl.lib tudt.lib"
+				AdditionalDependencies="udt.lib ws2_32.lib tudt.lib"
 				OutputFile="../../../bin/debug/$(ProjectName).exe"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="../../../lib/debug/"
@@ -142,7 +142,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="udt.lib UdtUploader.lib HttpUploader.lib HttpBlockDownloader.lib ws2_32.lib TDownloader.lib libcurl.lib tudt.lib"
+				AdditionalDependencies="udt.lib ws2_32.lib tudt.lib"
 				OutputFile="../../../bin/release/$(ProjectName).exe"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="../../../lib/release/"
