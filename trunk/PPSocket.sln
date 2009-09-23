@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TStunClient", "TUDT\TStunClient\TStunClient.vcproj", "{4CC7C715-B54E-4D2C-8223-4F6C719009DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TStunServ", "TUDT\TStunServ\TStunServ.vcproj", "{23F329B0-B613-4F97-836C-3A2A057B1A29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CA182DC-5737-44B3-A9D3-57FF383423C2} = {5CA182DC-5737-44B3-A9D3-57FF383423C2}
+		{60729FE8-E09F-4142-BF8D-8B9B8B383102} = {60729FE8-E09F-4142-BF8D-8B9B8B383102}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UdtTest", "Uploader\UdtTest\UdtTest.vcproj", "{174E7E2D-AEA7-4034-BDDD-0DAEF5B4760F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tudt", "TUDT\tudt\tudt.vcproj", "{5CA182DC-5737-44B3-A9D3-57FF383423C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60729FE8-E09F-4142-BF8D-8B9B8B383102} = {60729FE8-E09F-4142-BF8D-8B9B8B383102}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udt4.4", "udt4.4\win\udt4.4.vcproj", "{60729FE8-E09F-4142-BF8D-8B9B8B383102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Debug|Win32.Build.0 = Debug|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Release|Win32.ActiveCfg = Release|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Release|Win32.Build.0 = Release|Win32
+		{23F329B0-B613-4F97-836C-3A2A057B1A29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23F329B0-B613-4F97-836C-3A2A057B1A29}.Debug|Win32.Build.0 = Debug|Win32
+		{23F329B0-B613-4F97-836C-3A2A057B1A29}.Release|Win32.ActiveCfg = Release|Win32
+		{23F329B0-B613-4F97-836C-3A2A057B1A29}.Release|Win32.Build.0 = Release|Win32
+		{174E7E2D-AEA7-4034-BDDD-0DAEF5B4760F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{174E7E2D-AEA7-4034-BDDD-0DAEF5B4760F}.Debug|Win32.Build.0 = Debug|Win32
+		{174E7E2D-AEA7-4034-BDDD-0DAEF5B4760F}.Release|Win32.ActiveCfg = Release|Win32
+		{174E7E2D-AEA7-4034-BDDD-0DAEF5B4760F}.Release|Win32.Build.0 = Release|Win32
+		{5CA182DC-5737-44B3-A9D3-57FF383423C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CA182DC-5737-44B3-A9D3-57FF383423C2}.Debug|Win32.Build.0 = Debug|Win32
+		{5CA182DC-5737-44B3-A9D3-57FF383423C2}.Release|Win32.ActiveCfg = Release|Win32
+		{5CA182DC-5737-44B3-A9D3-57FF383423C2}.Release|Win32.Build.0 = Release|Win32
+		{60729FE8-E09F-4142-BF8D-8B9B8B383102}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60729FE8-E09F-4142-BF8D-8B9B8B383102}.Debug|Win32.Build.0 = Debug|Win32
+		{60729FE8-E09F-4142-BF8D-8B9B8B383102}.Release|Win32.ActiveCfg = Release|Win32
+		{60729FE8-E09F-4142-BF8D-8B9B8B383102}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

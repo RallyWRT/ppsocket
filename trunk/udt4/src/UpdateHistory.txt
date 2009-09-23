@@ -1,0 +1,10 @@
+对UDT的修改主要有两点
+1.握手时长的修改
+2.selectEx，使用set作参数，而不是vector。
+3.CUDTUnited::cleanup()中，WaitForSingleObject(m_GCThread, INFINITE);改为最多只等待2秒。
+4.CUDT::connect(const sockaddr* serv_addr)中，链接超时时间timeo该大一点，由3s改为15s。
+其它地方的修改都不重要，如const函数的增加等。
+
+更新记录：
+7.11 更新到4.5
+8.4  更新到4.5a
