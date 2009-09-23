@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udt", "udt.vcproj", "{D84D100A-7C21-4CCB-B16E-0FB37137C16C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2PUdtTest", "..\P2PUdtTest\P2PUdtTest.vcproj", "{2AE01D48-A1E1-460C-B623-42BE15D6417C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C} = {D84D100A-7C21-4CCB-B16E-0FB37137C16C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTester", "..\FileTester\FileTester.vcproj", "{9D49C9FF-F495-4FDD-A44F-C98124644708}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C} = {D84D100A-7C21-4CCB-B16E-0FB37137C16C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TStunServ", "..\TStunServ\TStunServ.vcproj", "{9D49C9FF-F495-4FDD-A44F-C98124644708}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C} = {D84D100A-7C21-4CCB-B16E-0FB37137C16C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TStunClient", "..\TStunClient\TStunClient.vcproj", "{4CC7C715-B54E-4D2C-8223-4F6C719009DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C} = {D84D100A-7C21-4CCB-B16E-0FB37137C16C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Debug.ActiveCfg = Debug|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Debug.Build.0 = Debug|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Release.ActiveCfg = Release|Win32
+		{D84D100A-7C21-4CCB-B16E-0FB37137C16C}.Release.Build.0 = Release|Win32
+		{2AE01D48-A1E1-460C-B623-42BE15D6417C}.Debug.ActiveCfg = Debug|Win32
+		{2AE01D48-A1E1-460C-B623-42BE15D6417C}.Debug.Build.0 = Debug|Win32
+		{2AE01D48-A1E1-460C-B623-42BE15D6417C}.Release.ActiveCfg = Release|Win32
+		{2AE01D48-A1E1-460C-B623-42BE15D6417C}.Release.Build.0 = Release|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Debug.ActiveCfg = Debug|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Debug.Build.0 = Debug|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Release.ActiveCfg = Release|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Release.Build.0 = Release|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Debug.ActiveCfg = Debug|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Debug.Build.0 = Debug|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Release.ActiveCfg = Release|Win32
+		{9D49C9FF-F495-4FDD-A44F-C98124644708}.Release.Build.0 = Release|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Debug.ActiveCfg = Debug|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Debug.Build.0 = Debug|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Release.ActiveCfg = Release|Win32
+		{4CC7C715-B54E-4D2C-8223-4F6C719009DE}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
