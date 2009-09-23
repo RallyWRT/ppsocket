@@ -10,16 +10,13 @@
 #include <iostream>
 using namespace std;
 
-#include "HttpUploader.h"
-#include "HttpBlockDownloader.h"
-#include "IUploader.h"
+#include <atldef.h>
+
 #include "tudt.h"
-#include "UdtUploader.h"
 
-#include "atldef.h"
 
-#include "RaProtocolStruct.h"
-#include "RaProtoValue.h"
+//#include "RaProtocolStruct.h"
+//#include "RaProtoValue.h"
 
 class UdtTestPeer
 	: public UDT::TPeer
