@@ -950,7 +950,7 @@ int CUDTUnited::select(ud_set* readfds, ud_set* writefds, ud_set* exceptfds, con
    return count;
 }
 
-int CUDTUnited::selectEx(const vector<UDTSOCKET>& fds, vector<UDTSOCKET>* readfds, vector<UDTSOCKET>* writefds, vector<UDTSOCKET>* exceptfds, int64_t msTimeOut)
+int CUDTUnited::selectEx(const set<UDTSOCKET>& fds, vector<UDTSOCKET>* readfds, vector<UDTSOCKET>* writefds, vector<UDTSOCKET>* exceptfds, int64_t msTimeOut)
 {
    uint64_t entertime = CTimer::getTime();
 
@@ -971,7 +971,7 @@ int CUDTUnited::selectEx(const vector<UDTSOCKET>& fds, vector<UDTSOCKET>* readfd
 
    do
    {
-      for (vector<UDTSOCKET>::const_iterator i = fds.begin(); i != fds.end(); ++ i)
+      for (set<UDTSOCKET>::const_iterator i = fds.begin(); i != fds.end(); ++ i)
       {
          CUDTSocket* s = locate(*i);
 
@@ -1784,7 +1784,7 @@ int CUDT::select(int, ud_set* readfds, ud_set* writefds, ud_set* exceptfds, cons
    }
 }
 
-int CUDT::selectEx(const vector<UDTSOCKET>& fds, vector<UDTSOCKET>* readfds, vector<UDTSOCKET>* writefds, vector<UDTSOCKET>* exceptfds, int64_t msTimeOut)
+int CUDT::selectEx(const set<UDTSOCKET>& fds, vector<UDTSOCKET>* readfds, vector<UDTSOCKET>* writefds, vector<UDTSOCKET>* exceptfds, int64_t msTimeOut)
 {
    if ((NULL == readfds) && (NULL == writefds) && (NULL == exceptfds))
    {
@@ -1955,7 +1955,7 @@ int select(int nfds, UDSET* readfds, UDSET* writefds, UDSET* exceptfds, const st
    return CUDT::select(nfds, readfds, writefds, exceptfds, timeout);
 }
 
-int selectEx(const vector<UDTSOCKET>& fds, vector<UDTSOCKET>* readfds, vector<UDTSOCKET>* writefds, vector<UDTSOCKET>* exceptfds, int64_t msTimeOut)
+int selectEx(const set<UDTSOCKET>& fds, vector<UDTSOCKET>* readfds, vector<UDTSOCKET>* writefds, vector<UDTSOCKET>* exceptfds, int64_t msTimeOut)
 {
    return CUDT::selectEx(fds, readfds, writefds, exceptfds, msTimeOut);
 }

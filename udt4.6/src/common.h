@@ -47,6 +47,7 @@ written by
    #include <sys/uio.h>
    #include <pthread.h>
 #else
+   #define WIN32_LEAN_AND_MEAN
    #include <windows.h>
 #endif
 #include <cstdlib>
