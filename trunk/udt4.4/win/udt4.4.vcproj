@@ -12,8 +12,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="../../../temp/debug/$(ProjectName)"
-			IntermediateDirectory="../../../temp/debug/$(ProjectName)"
+			OutputDirectory="../../temp/debug/$(ProjectName)"
+			IntermediateDirectory="../../temp/debug/$(ProjectName)"
 			ConfigurationType="2">
 			<Tool
 				Name="VCCLCompilerTool"
@@ -38,14 +38,14 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="kernel32.lib user32.lib ws2_32.lib $(NOINHERIT)"
-				OutputFile="../../../bin/debug/$(ProjectName).dll"
+				OutputFile="../../bin/debug/$(ProjectName).dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="TRUE"
 				IgnoreAllDefaultLibraries="FALSE"
 				GenerateDebugInformation="TRUE"
 				ProgramDatabaseFile="$(outdir)/udt.pdb"
 				SubSystem="1"
-				ImportLibrary="../../../lib/debug/udt.lib"/>
+				ImportLibrary="../../lib/debug/udt.lib"/>
 			<Tool
 				Name="VCMIDLTool"/>
 			<Tool
@@ -69,8 +69,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="../../../temp/release/$(ProjectName)"
-			IntermediateDirectory="../../../temp/release/$(ProjectName)"
+			OutputDirectory="../../temp/release/$(ProjectName)"
+			IntermediateDirectory="../../temp/release/$(ProjectName)"
 			ConfigurationType="2">
 			<Tool
 				Name="VCCLCompilerTool"
@@ -96,13 +96,13 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="kernel32.lib user32.lib ws2_32.lib $(NOINHERIT)"
-				OutputFile="../../../bin/release/$(ProjectName).dll"
+				OutputFile="../../bin/release/$(ProjectName).dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="TRUE"
 				GenerateDebugInformation="TRUE"
 				ProgramDatabaseFile="$(outdir)/udt.pdb"
 				SubSystem="1"
-				ImportLibrary="../../../lib/release/udt.lib"/>
+				ImportLibrary="../../lib/release/udt.lib"/>
 			<Tool
 				Name="VCMIDLTool"/>
 			<Tool
