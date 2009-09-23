@@ -6,10 +6,6 @@
 #include "jthread.h"
 #include "jmutex.h"
 
-#ifdef _DEBUG
-#define new new(_NORMAL_BLOCK, __FILE__, __LINE__)
-#endif
-
 //多个JThread的容器。
 //容器析构时，会delete掉所有的JThread
 //容器本身是线程安全的

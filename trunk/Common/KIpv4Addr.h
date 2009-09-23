@@ -97,7 +97,8 @@ public:
 		t_ushort usPort;
 		GetAddr(strIp,usPort);
 		char buf[16];
-		_itoa_s(usPort,buf,16,10);
+		//_itoa_s(usPort,buf,16,10);
+		itoa(usPort,buf,10);
 		return strIp + ":" + buf;
 	}
 

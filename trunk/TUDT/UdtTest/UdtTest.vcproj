@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="7.10"
 	Name="UdtTest"
 	ProjectGUID="{174E7E2D-AEA7-4034-BDDD-0DAEF5B4760F}"
 	Keyword="Win32Proj"

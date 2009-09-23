@@ -130,7 +130,8 @@ int _tmain(int argc, _TCHAR* argv[])
 				for (int i=0;i<1000;)
 				{
 					char sendbuf[1024*4];
-					sprintf_s(sendbuf,1024*4,"MSG %d:\t%s\n",i,buf + iCmdLen);
+					//sprintf_s(sendbuf,1024*4,"MSG %d:\t%s\n",i,buf + iCmdLen);
+					sprintf(sendbuf,"MSG %d:\t%s\n",i,buf + iCmdLen);
 					if(mng.SendPeerMsg(iPeer,sendbuf,strlen(sendbuf)+1)>0)
 					{
 						cout<<(int)strlen(buf)-4<<" bytes sent."<<endl;

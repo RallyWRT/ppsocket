@@ -13,9 +13,9 @@
 #define TRACE  ATLTRACE
 #define VERIFY ATLVERIFY
 
-#define CRTDBG_MAP_ALLOC
-#include <stdlib.h>
-#include <crtdbg.h>
+//#define CRTDBG_MAP_ALLOC
+//#include <stdlib.h>
+//#include <crtdbg.h>
 
 /*
 #ifndef ASSERT

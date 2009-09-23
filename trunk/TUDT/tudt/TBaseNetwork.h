@@ -2,12 +2,6 @@
 #include <set>
 #include "tudt.h"
 #include "JMutex.h"
-//#include "MonitorGroup.h"
-//#include "../src/common.h"
-
-#ifdef _DEBUG
-#define new new(_NORMAL_BLOCK, __FILE__, __LINE__)
-#endif
 
 class TBaseNetwork
 {
