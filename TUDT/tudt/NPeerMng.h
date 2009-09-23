@@ -9,10 +9,6 @@
 #include "JThreadGroup.h"
 #include "jmutex.h"
 
-#ifdef _DEBUG
-#define new new(_NORMAL_BLOCK, __FILE__, __LINE__)
-#endif
-
 //2.NPeerMng类
 //NPeerMng类从INetworkListener中继承，侦听所有的网络消息。
 //每一个连接上来之后，先发送id，然后将它放到“未认证“集合中，等到确定对方id后，保存在socket-->id集合中。当有数据到达的时候，先根据id查找到相应NPeer，再将数据发送给NPeer。

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="7.10"
 	Name="udt4.4"
 	ProjectGUID="{60729FE8-E09F-4142-BF8D-8B9B8B383102}"
 	RootNamespace="udt4.4"

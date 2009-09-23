@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="7.10"
 	Name="TStunClient"
 	ProjectGUID="{4CC7C715-B54E-4D2C-8223-4F6C719009DE}"
 	RootNamespace="TStunServ"
